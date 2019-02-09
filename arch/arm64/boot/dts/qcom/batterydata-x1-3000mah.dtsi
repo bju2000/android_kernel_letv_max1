@@ -1,0 +1,56 @@
+/* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+qcom,mtp-3000mah {
+	qcom,fcc-mah = <3000>;
+	qcom,default-rbatt-mohm = <100>;
+	qcom,max-voltage-uv = <4350000>;
+	qcom,rbatt-capacitive-mohm = <50>;
+	qcom,v-cutoff-uv = <3460000>;
+	qcom,chg-term-ua = <170000>;
+	qcom,batt-id-kohm = <10>;
+	qcom,battery-type = "x1_3000mah_tmp";
+	qcom,fg-profile-data = [
+		 F4 83 7F 7D
+		 6F 81 09 7C
+		 6F 83 8F 77
+		 84 8A A1 94
+		 EE 81 FF 98
+		 DD B5 A4 C0
+		 5F 18 0E 88
+		 3C 7E CA 81
+		 3E 7C 52 83
+		 4C 62 4A 80
+		 1E 8C 48 82
+		 88 98 37 B6
+		 B9 C1 5E 18
+		 21 0C 11 5A
+		 CE 6E 29 FC
+		 57 23 18 44
+		 1D 3E 00 00
+		 5F 4C 18 28
+		 76 39 00 00
+		 00 00 00 00
+		 00 00 00 00
+		 A8 70 E2 70
+		 BE 6D 12 89
+		 47 6E BC 4F
+		 FF 63 A8 81
+		 16 6E 9E 4F
+		 C4 85 23 B2
+		 26 E4 63 B0
+		 64 A0 71 0C
+		 28 00 FF 36
+		 F0 11 30 03
+		 00 00 00 00
+	];
+};

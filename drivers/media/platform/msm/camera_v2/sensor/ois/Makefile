@@ -1,0 +1,9 @@
+ccflags-y += -Idrivers/media/platform/msm/camera_v2
+ccflags-y += -Idrivers/media/platform/msm/camera_v2/sensor/io
+ccflags-y += -Idrivers/media/platform/msm/camera_v2/sensor/cci
+obj-$(CONFIG_MSMB_CAMERA) += msm_ois.o
+obj-$(CONFIG_MSMB_CAMERA) += ois_interface.o
+obj-$(CONFIG_MSMB_CAMERA) += OisIni.o
+obj-$(CONFIG_MSMB_CAMERA) += OisCmd.o
+obj-$(CONFIG_MSMB_CAMERA) += OisIni_OFILM.o
+obj-$(CONFIG_MSMB_CAMERA) += OisCmd_OFILM.o
